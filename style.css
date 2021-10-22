@@ -1,0 +1,52 @@
+body {
+    font-family: Arial;
+}
+.question {
+    margin-bottom: 60px;
+}
+.question .description {
+    font-size: 18px;
+}
+
+/********************************
+ * Questão 4.
+ *******************************/
+.q4-wrapper {
+    background: #EFEFEF;
+}
+.q4-wrapper .q4-block {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: #333;
+}
+
+/* Resposta aqui */
+
+.q4-wrapper{
+    display: flex;
+    flex: 0 1 auto;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.q4-block:nth-child(odd){
+    background-color: green;
+}
+
+/********************************
+ * Questão 5.
+ *******************************/
+
+/* Resposta aqui */
+header{
+    background-color: #F00;
+    color: #FFFFFF;
+    text-align: center;
+}
+.file-name{
+    color:#00F;
+    font-weight: bold;
+}
+#my-name{
+    text-transform: uppercase;
+}
